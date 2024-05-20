@@ -46,7 +46,7 @@ algorithms = {
         "Complexité": "O(h)   avec h: hauteur de l'ABR (cas moyen)"  # h: height of the BST (average case)
     
     },
-    "Heuristique Gloutonne, Rendu de monnaie (MAD)": {
+    "Heuristique Gloutonne, Rendu de monnaie(MAD)": {
         "gif": "flos.png",  # Replace with a suitable GIF
         "Explication": """
         Le problème du rendu de monnaie consiste à trouver le nombre minimal de pièces et billets nécessaires pour rendre une somme donnée en monnaie marocaine (MAD). 
@@ -216,7 +216,7 @@ algorithm_info = algorithms[selected_algorithm]
 st.header(selected_algorithm)
 st.image(algorithm_info["gif"])
 
-if selected_algorithm == "Rendu de monnaie (MAD)":
+if selected_algorithm == "Heuristique Gloutonne, Rendu de monnaie(MAD)":
     def coin_change_mad(total_amount, price):
         """
         Calculates the minimum number of MAD coins to return change for a given price.
