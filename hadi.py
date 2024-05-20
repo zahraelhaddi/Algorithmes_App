@@ -4,7 +4,7 @@ import numpy as np
 # Dictionary to store algorithm information (GIF, explanation, complexity)
 algorithms = {
     "BFS, Parcours en Largeur": {
-        "gif": r"C:\Users\Zahra\Desktop\Algorithmes_Avancées_Implémentation\Breadth-First-Search-Algorithm.gif",
+        "gif": r"Breadth-First-Search-Algorithm.gif",
         "Explication": """
         Le parcours en largeur (BFS, Breadth-First Search) est un algorithme permettant de parcourir ou de rechercher des structures de données en arborescence ou en graphe. 
         Il commence à un nœud racine (source sélectionnée) et explore tous les nœuds voisins au niveau courant avant de passer au niveau suivant. 
@@ -19,7 +19,7 @@ algorithms = {
         "Complexité": "O(S + A)  avec S: sommets, A: arêtes"  # V: vertices, E: edges
     },
     "DFS, Parcours en Profondeur": {
-        "gif": r"C:\Users\Zahra\Desktop\Algorithmes_Avancées_Implémentation\Depth-First-Search.gif",
+        "gif": r"Depth-First-Search.gif",
         "Explication": """
         Le parcours en profondeur (DFS, Depth-First Search) est un algorithme permettant de parcourir ou de rechercher des structures de données en arborescence ou en graphe. 
         Il commence à un nœud racine (source sélectionnée) et explore le plus loin possible le long de chaque branche avant de revenir en arrière. 
@@ -33,7 +33,7 @@ algorithms = {
         "Complexité": "O(S + A)   avec  S: sommets, A: arêtes"  # V: vertices, E: edges
     },
     "Recherche d'une clé dans un arbre binaire de recherche": {
-        "gif": r"C:\Users\Zahra\Desktop\Algorithmes_Avancées_Implémentation\Binary_search_tree_example.gif",
+        "gif": r"Binary_search_tree_example.gif",
         "Explication": """
         La recherche dans un arbre binaire de recherche (ABR) est un algorithme permettant de rechercher efficacement une valeur spécifique (clé) dans un arbre binaire de recherche trié. 
         Il commence au nœud racine et compare la clé avec la valeur du nœud. Si elles sont égales, la recherche est réussie. 
@@ -77,7 +77,7 @@ algorithms = {
         "Complexité": "O(n)    avec n: montant à rendre"  # n: montant à rendre
     },
     "Floyd Warshall , problème du plus court chemin": {
-        "gif": r"C:\Users\Zahra\Desktop\Algorithmes_Avancées_Implémentation\Floyd_warshall_gif.gif",
+        "gif": r"Floyd_warshall_gif.gif",
         "Explication": """
         L'algorithme de Floyd Warshall est utilisé pour trouver le plus court chemin entre tous les paires de sommets dans un graphe pondéré. Contrairement à Dijkstra qui trouve le plus court chemin d'un sommet source à tous les autres sommets, Floyd Warshall peut être utilisé pour trouver le plus court chemin entre tous les paires de sommets.
         """,
@@ -90,7 +90,7 @@ algorithms = {
         "Complexité": "O(n^3)    avec n: Nombre de sommets dans le graphe"  # V: nombre de sommets dans le graphe
     },
     "Heuristique du Plus Proche Voisin": {
-        "gif": r"C:\Users\Zahra\Desktop\Algorithmes_Avancées_Implémentation\Nearestneighbor.gif",
+        "gif": r"Nearestneighbor.gif",
         "Explication": """
         L'HPVN fonctionne en construisant une solution de manière itérative en sélectionnant, 
         à chaque étape, l'élément le plus proche (en termes de distance ou de similarité) d'un point de référence.
