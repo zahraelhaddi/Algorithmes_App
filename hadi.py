@@ -176,7 +176,7 @@ def display_sudoku(board):
 
 st.title("Visualisation des Algorithmes")
 additional_info_container1 = st.sidebar.container()
-additional_info_container1.image("ENSABERRECHID_logo20230124170433.png", width=200)
+additional_info_container1.image("ENSABERRECHID_logo20230124170433.png", width=300)
   # Adding space
 additional_info_container1.markdown(
     """
